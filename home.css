@@ -23,14 +23,14 @@ body {
 }
 #webText{
     line-height: 6vw;
-    letter-spacing: 0.5vw;
+    letter-spacing: 0.25vw;
     font-size: 3vw;
     margin-left: 1.7vw;
 }
 #welcomeText{
     margin-top: 2vw;
     line-height: 6vw;
-    letter-spacing: 0.25vw;
+    letter-spacing: 0.15vw;
     font-size: 13vw;
     margin-left: 1.7vw;
     margin-bottom: 1.75vw;
@@ -38,7 +38,7 @@ body {
 #futureText{
     margin-top: 0;
     line-height: 6vw;
-    letter-spacing: 0.75vw;
-    font-size: 4vw;
+    letter-spacing: 0.25vw;
+    font-size: 4.8vw;
     margin-left: 2.5vw;
 }
