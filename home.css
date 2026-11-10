@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+body {
+    background-image: url('webmasterhomebackground.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+  h1,h2,h3,p{
+    font-family: 'Arya';
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+#topSection{
+    height: 6vw;
+    background-color: #104170;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#webText{
+    line-height: 6vw;
+    letter-spacing: 0.5vw;
+    font-size: 3vw;
+    margin-left: 1.7vw;
+}
+#welcomeText{
+    margin-top: 2vw;
+    line-height: 6vw;
+    letter-spacing: 0.25vw;
+    font-size: 13vw;
+    margin-left: 1.7vw;
+    margin-bottom: 1.75vw;
+}
+#futureText{
+    margin-top: 0;
+    line-height: 6vw;
+    letter-spacing: 0.75vw;
+    font-size: 4vw;
+    margin-left: 2.5vw;
+}
