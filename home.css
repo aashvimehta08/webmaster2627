@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: Tahoma, Verdana, sans-serif;
   }
-  h1,h2,h3,p{
+  h1,h2,h3,p,button{
     font-family: 'Arya';
     font-weight: 400;
     font-style: normal;
@@ -41,4 +41,20 @@ body {
     letter-spacing: 0.25vw;
     font-size: 4.8vw;
     margin-left: 2.5vw;
+}
+#loginButton{
+   height: 3vw;
+   width: 9vw;
+   font-size: 3vw;
+   font-weight: bolder;
+   color: #ffffff;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   border-radius: 1vw;
+   background-color: #68C5F8;
+   border: none;
+   margin-left: 60vw;
+   -webkit-text-stroke: 0.1vw #3098F6;
 }
