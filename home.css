@@ -43,7 +43,7 @@ body {
     margin-left: 2.5vw;
 }
 #loginButton{
-   height: 3vw;
+   height: 3.2vw;
    width: 9vw;
    font-size: 3vw;
    font-weight: bolder;
@@ -53,8 +53,9 @@ body {
    display: flex;
    flex-direction: column;
    border-radius: 1vw;
+   border-color: #3098F6;
    background-color: #68C5F8;
-   border: none;
    margin-left: 60vw;
+   border-style: solid;
    -webkit-text-stroke: 0.1vw #3098F6;
 }
