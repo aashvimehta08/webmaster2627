@@ -28,7 +28,7 @@ body {
     margin-left: 1.7vw;
 }
 #welcomeText{
-    margin-top: 2vw;
+    margin-top: 3vw;
     line-height: 6vw;
     letter-spacing: 0.15vw;
     font-size: 13vw;
@@ -57,5 +57,77 @@ body {
    background-color: #68C5F8;
    margin-left: 60vw;
    border-style: solid;
-   -webkit-text-stroke: 0.1vw #3098F6;
+   -webkit-text-stroke: 0.2vw #3098F6;
+   paint-order: stroke fill;
+}
+
+.ribbon-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 4vw;
+    justify-content: center;
+}
+.ribbon {
+    width: 30vw;
+    flex-shrink: 0;
+}
+.ribbon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.ribbon-outline {
+    fill: none;
+    stroke: rgb(250, 250, 250);
+    stroke-width: 2.5;
+    stroke-linejoin: round;
+}
+.ribbon-left {
+    margin-top: 2vw;
+    height: 80vw;
+    -webkit-text-stroke: 0.2vw #9b285d;
+}
+
+.ribbon-middle {
+    margin-top: 8vw;
+    height: 90vw;
+    -webkit-text-stroke: 0.2vw #f9bc44;
+}
+
+.ribbon-right {
+    margin-top: 14vw;
+    height: 100vw;
+    -webkit-text-stroke: 0.2vw #3eccff;
+}
+/* Allows text to be positioned over the ribbon */
+.ribbon {
+    position: relative;
+    width: 30vw;
+    flex-shrink: 0;
+}
+
+/* Places text over the SVG */
+.ribbon-content {
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    right: 3vw;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    paint-order: stroke fill;
+}
+
+/* Ribbon titles */
+.ribbon-content h2 {
+    font-size: 4vw;
+    margin-bottom: 5vw;
+    line-height: 1.2;
+}
+
+/* Ribbon text */
+.ribbon-content p {
+    font-size: 3vw;
+    text-align: left;
+    margin-top: 5vw;
 }
