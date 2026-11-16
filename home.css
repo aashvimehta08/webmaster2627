@@ -41,6 +41,7 @@ body {
     letter-spacing: 0.25vw;
     font-size: 4.8vw;
     margin-left: 2.5vw;
+    margin-bottom: 2vw;
 }
 #loginButton{
    height: 3.4vw;
@@ -83,6 +84,7 @@ body {
     align-items: flex-start;
     gap: 4vw;
     justify-content: center;
+    margin-bottom: 4vw;
 }
 .ribbon {
     width: 30vw;
@@ -100,14 +102,14 @@ body {
     stroke-linejoin: round;
 }
 .ribbon-left {
-    margin-top: 2vw;
-    height: 80vw;
+    margin-top: 1vw;
+    height: 90vw;
     -webkit-text-stroke: 0.2vw #ff3a96;
 }
 
 .ribbon-middle {
     margin-top: 8vw;
-    height: 90vw;
+    height: 92vw;
     -webkit-text-stroke: 0.2vw #f8aa10;
 }
 
