@@ -43,9 +43,9 @@ body {
     margin-left: 2.5vw;
 }
 #loginButton{
-   height: 3.2vw;
+   height: 3.4vw;
    width: 9vw;
-   font-size: 3vw;
+   font-size: 2.5vw;
    font-weight: bolder;
    color: #ffffff;
    align-items: center;
@@ -55,12 +55,29 @@ body {
    border-radius: 1vw;
    border-color: #3098F6;
    background-color: #68C5F8;
-   margin-left: 60vw;
    border-style: solid;
    -webkit-text-stroke: 0.2vw #3098F6;
    paint-order: stroke fill;
+   margin-right: 1vw;
 }
-
+#sourcesButton{
+    height: 3.4vw;
+    width: 12vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vw;
+    border-color: #3098F6;
+    background-color: #68C5F8;
+    margin-left: 50vw;
+    border-style: solid;
+    -webkit-text-stroke: 0.2vw #3098F6;
+    paint-order: stroke fill;
+ }
 .ribbon-container {
     display: flex;
     align-items: flex-start;
@@ -85,19 +102,19 @@ body {
 .ribbon-left {
     margin-top: 2vw;
     height: 80vw;
-    -webkit-text-stroke: 0.2vw #9b285d;
+    -webkit-text-stroke: 0.2vw #ff3a96;
 }
 
 .ribbon-middle {
     margin-top: 8vw;
     height: 90vw;
-    -webkit-text-stroke: 0.2vw #f9bc44;
+    -webkit-text-stroke: 0.2vw #f8aa10;
 }
 
 .ribbon-right {
     margin-top: 14vw;
     height: 100vw;
-    -webkit-text-stroke: 0.2vw #3eccff;
+    -webkit-text-stroke: 0.2vw #0096cd;
 }
 /* Allows text to be positioned over the ribbon */
 .ribbon {
