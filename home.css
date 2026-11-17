@@ -33,7 +33,7 @@ body {
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 0;
+    margin-top: -1vw;
     padding-top: 0vw;
     margin-bottom: 0;
 }
@@ -123,19 +123,19 @@ body {
     stroke-linejoin: round;
 }
 .ribbon-left {
-    margin-top: 0vw;
+    margin-top: -4vw;
     height: 90vw;
     -webkit-text-stroke: 0.2vw #ff3a96;
 }
 
 .ribbon-middle {
-    margin-top: 6vw;
+    margin-top: 2.5vw;
     height: 92vw;
     -webkit-text-stroke: 0.2vw #f8aa10;
 }
 
 .ribbon-right {
-    margin-top: 12vw;
+    margin-top: 7vw;
     height: 100vw;
     -webkit-text-stroke: 0.2vw #0096cd;
 }
