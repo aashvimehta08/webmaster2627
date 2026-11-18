@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+
 body {
     background-image: url('webmasterhomebackground.png');
     background-attachment: scroll;
@@ -7,14 +8,16 @@ body {
     overflow-x: hidden;
     margin: 0;
     font-family: Tahoma, Verdana, sans-serif;
-  }
-  h1,h2,h3,p,button{
-    font-family: 'Arya';
+}
+
+h1, h2, h3, p, button, span {
+    font-family: 'Arya', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
 }
-#topSection{
+
+#topSection {
     height: 6vw;
     background-color: #104170;
     display: flex;
@@ -22,31 +25,35 @@ body {
     gap: 2vw;
     margin-bottom: 0;
 }
-#webText{
+
+#webText {
     line-height: 6vw;
     letter-spacing: 0.25vw;
     font-size: 3vw;
     margin-left: 1.7vw;
 }
-#loginButton{
-   height: 3.4vw;
-   width: 9vw;
-   font-size: 2.5vw;
-   font-weight: bolder;
-   color: #ffffff;
-   align-items: center;
-   justify-content: center;
-   display: flex;
-   flex-direction: column;
-   border-radius: 1vw;
-   border-color: #3098F6;
-   background-color: #68C5F8;
-   border-style: solid;
-   -webkit-text-stroke: 0.2vw #3098F6;
-   paint-order: stroke fill;
-   margin-right: 1vw;
+
+#loginButton {
+    height: 3.4vw;
+    width: 9vw;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vw;
+    border-color: #3098F6;
+    background-color: #68C5F8;
+    border-style: solid;
+    -webkit-text-stroke: 0.2vw #3098F6;
+    paint-order: stroke fill;
+    margin-right: 1vw;
+    cursor: pointer;
 }
-#sourcesButton{
+
+#sourcesButton {
     height: 3.4vw;
     width: 12vw;
     font-size: 2vw;
@@ -63,36 +70,48 @@ body {
     border-style: solid;
     -webkit-text-stroke: 0.2vw #3098F6;
     paint-order: stroke fill;
- }
-#topArea{
+    cursor: pointer;
+}
+
+#topArea {
     display: flex;
     gap: 3vw;
     justify-content: center;
     align-items: center;
 }
-#topLeft{
+
+#topLeft {
     width: 75vw;
 }
-#topRight{
+
+#topRight {
     width: 25vw;
 }
-#title{
+
+#title {
     font-size: 14vw;
     margin: 0;
     height: 19vw;
     margin-left: 3vw;
     margin-top: -5vw;
+    -webkit-text-stroke: 0.25vw #3098F6;
+    paint-order: stroke fill;
 }
-#description{
+
+#description {
     font-size: 3vw;
     margin-top: 0;
     margin-left: 3vw;
     line-height: 3vw;
+    -webkit-text-stroke: 0.15vw #3098F6;
+    paint-order: stroke fill;
 }
-#cashBox{
+
+#cashBox {
     margin-bottom: 2.5vw;
 }
-.topRight{
+
+.topRight {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,9 +119,188 @@ body {
     height: 6vw;
     border: 0.4vw solid #3FB6F7;
     border-radius: 2vw;
-    font-size: 1vw;
+    font-size: 2vw;
+    font-weight: bold;
     background: linear-gradient(to bottom, #ffffff, #96E7F3);
     box-sizing: border-box;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    
+    -webkit-text-stroke: 0.15vw #3098F6;
+    paint-order: stroke fill;
+}
+
+#shopButton {
+    cursor: pointer;
+}
+
+/* --- MODULES SECTION --- */
+
+#modulesContainer {
+    width: 78vw;
+    margin: 3vw auto 6vw auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.module-card {
+    background: transparent;
+}
+
+/* Module Header Bars */
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2vw 2.2vw;
+    border-radius: 0.6vw;
+    cursor: pointer;
+    list-style: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.module-header::-webkit-details-marker {
+    display: none;
+}
+
+/* Color Themes */
+.module-card.pink .module-header {
+    background: linear-gradient(to right, #ea6f8b, #f69fb3);
+}
+.module-card.pink .module-title,
+.module-card.pink .module-desc,
+.module-card.pink .arrow-icon {
+    -webkit-text-stroke: 0.14vw #c74765;
+    paint-order: stroke fill;
+}
+
+.module-card.orange .module-header {
+    background: linear-gradient(to right, #e5933a, #f6be7a);
+}
+.module-card.orange .module-title,
+.module-card.orange .module-desc,
+.module-card.orange .arrow-icon {
+    -webkit-text-stroke: 0.14vw #b86919;
+    paint-order: stroke fill;
+}
+
+.module-card.blue .module-header {
+    background: linear-gradient(to right, #3c92df, #77befa);
+}
+.module-card.blue .module-title,
+.module-card.blue .module-desc,
+.module-card.blue .arrow-icon {
+    -webkit-text-stroke: 0.14vw #1d64a6;
+    paint-order: stroke fill;
+}
+
+.module-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.module-title {
+    font-size: 2.3vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+}
+
+.module-desc {
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+}
+
+/* Arrow Rotation */
+.arrow-icon {
+    font-size: 2.4vw;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+}
+
+details[open] > .module-header .arrow-icon {
+    transform: rotate(90deg);
+}
+
+/* Expanded Sub-items */
+.module-content {
+    margin-top: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding-left: 2vw;
+}
+
+.sub-item-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+/* Branching L-Arrow */
+.branch-arrow {
+    font-size: 3vw;
+    line-height: 1;
+    color: #f48fa4;
+    -webkit-text-stroke: 0.12vw #c74765;
+    paint-order: stroke fill;
+}
+
+.module-card.orange .branch-arrow {
+    color: #f6be7a;
+    -webkit-text-stroke: 0.12vw #b86919;
+}
+
+.module-card.blue .branch-arrow {
+    color: #77befa;
+    -webkit-text-stroke: 0.12vw #1d64a6;
+}
+
+/* Individual Lesson/Quiz Bars */
+.sub-item {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8vw 1.8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.sub-item:hover {
+    transform: translateX(0.3vw);
+}
+
+.module-card.pink .sub-item {
+    background: linear-gradient(to right, #ec7892, #f59bb0);
+}
+.module-card.pink .sub-title,
+.module-card.pink .sub-status {
+    -webkit-text-stroke: 0.11vw #c74765;
+    paint-order: stroke fill;
+}
+
+.module-card.orange .sub-item {
+    background: linear-gradient(to right, #e5933a, #f6be7a);
+}
+.module-card.orange .sub-title,
+.module-card.orange .sub-status {
+    -webkit-text-stroke: 0.11vw #b86919;
+    paint-order: stroke fill;
+}
+
+.module-card.blue .sub-item {
+    background: linear-gradient(to right, #3c92df, #77befa);
+}
+.module-card.blue .sub-title,
+.module-card.blue .sub-status {
+    -webkit-text-stroke: 0.11vw #1d64a6;
+    paint-order: stroke fill;
+}
+
+.sub-title,
+.sub-status {
+    font-size: 1.5vw;
+    font-weight: 700;
 }
