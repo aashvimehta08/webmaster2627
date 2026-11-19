@@ -61,7 +61,7 @@ body {
 #topLogo {
     height: 27vw;
     width: auto;
-    margin-right: 2vw;
+    margin-right: 4vw;
     object-fit: contain;
 }
 #loginButton{
