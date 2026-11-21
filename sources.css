@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+body {
+    background-image: url('webmasterhomebackground.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+h1,h2,h3,p,button{
+      font-family: "Arya";
+      font-weight: 400;
+      font-style: normal;
+}
+#topSection{
+    height: 6vw;
+    background-color: #104170;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#webText{
+    line-height: 6vw;
+    letter-spacing: 0.25vw;
+    font-size: 3vw;
+    margin-left: 1.7vw;
+    color: white;
+}
+#loginButton{
+    height: 3.4vw;
+    width: 9vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vw;
+    border-color: #3098F6;
+    background-color: #68C5F8;
+    border-style: solid;
+    -webkit-text-stroke: 0.2vw #3098F6;
+    paint-order: stroke fill;
+    margin-right: 1vw;
+ }
+ #homeButton{
+     height: 3.4vw;
+     width: 8vw;
+     font-size: 2vw;
+     font-weight: bolder;
+     color: #ffffff;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     border-radius: 1vw;
+     border-color: #3098F6;
+     background-color: #68C5F8;
+     margin-left: 55vw;
+     border-style: solid;
+     -webkit-text-stroke: 0.2vw #3098F6;
+     paint-order: stroke fill;
+  }
+#mainContent{
+    width: 60%;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    background-color: white;
+    height: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    opacity: 0.8;
+    border-radius: 2vw;
+}
+#sourcesText {
+    margin: 0;
+    line-height: 1;
+    letter-spacing: 0.15vw;
+    font-size: 10vw;
+    margin-top: 1.2vw;
+    margin-left: 15vw;
+    color: white;
+    -webkit-text-stroke: 0.1vw #104170;
+    paint-order: stroke fill;
+}
+#designTitle{
+    line-height: 1;
+    letter-spacing: 0.15vw; 
+    font-size: 4vw;
+    margin-top: 0;
+    margin-left: 15vw;
+    margin-bottom: 1vw;
+}
+.text{
+    text-align: center;
+    margin: 0;
+    font-size: 1.5vw;
+}
+.pdfButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 2.5vw;
+    width: 100%;
+}
+.pdfbutton {
+    width: 15vw;
+    height: 6vw;
+    border-radius: 1.5vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arya";
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1;
+}
+
+/* Individual button backgrounds */
+#AIButton {
+    background-image: url('ribbonleft.jpg');
+}
+
+#copyrightButton {
+    background-image: url('ribbonmiddle.PNG');
+}
