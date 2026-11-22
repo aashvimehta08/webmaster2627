@@ -1,0 +1,217 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+@import url("footer.css");
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,p,button{
+    font-family: "Arya";
+    font-weight: 400;
+    font-style: normal;
+}
+#topSection{
+    height: 6vw;
+    background-color: #104170;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#webText{
+    line-height: 6vw;
+    letter-spacing: 0.25vw;
+    font-size: 3vw;
+    margin-left: 1.7vw;
+    color: white;
+}
+#homeButton{
+    height: 3.4vw;
+    width: 7vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vw;
+    border-color: #3098F6;
+    background-color: #68C5F8;
+    border-style: solid;
+    -webkit-text-stroke: 0.2vw #3098F6;
+    paint-order: stroke fill;
+    margin-right: 1vw;
+ }
+ #sourcesButton{
+     height: 3.4vw;
+     width: 12vw;
+     font-size: 2vw;
+     font-weight: bolder;
+     color: #ffffff;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     border-radius: 1vw;
+     border-color: #3098F6;
+     background-color: #68C5F8;
+     margin-left: 50vw;
+     border-style: solid;
+     -webkit-text-stroke: 0.2vw #3098F6;
+     paint-order: stroke fill;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('webmasterhomebackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    font-family: "Arya", sans-serif;
+}
+#pageTitle {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    margin-bottom: 4vw;
+    font-weight: 700;
+    font-size: 10vw;
+    line-height: 1.15;
+    letter-spacing: 0.1vw;
+}
+#loginTitle {
+    display: inline-block;
+    background: linear-gradient(
+        to bottom,
+        #55C7FA,
+        #38B9F5,
+        #1686D2
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.15vw #07549C;
+    paint-order: stroke fill;
+    filter: drop-shadow(0.1vw 0.1vw 0.1vw #174A7B);
+}
+#orTitle {
+    color: white;
+    font-size: 8vw;
+    line-height: 1.15;
+}
+#signupTitle {
+    display: inline-block;
+    background: linear-gradient(
+        to bottom,
+        #FFD2A1,
+        #F9B77E,
+        #F28F50
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.15vw #E9874D;
+    paint-order: stroke fill;
+    filter: drop-shadow(0.1vw 0.1vw 0.1vw #B96B3E);
+}
+.formContainer {
+    width: 54vw;
+    margin: 0 auto;
+}
+.formSection label {
+    display: block;
+    font-size: 2.5vw;
+    line-height: 1.1;
+    color: #24476D;
+    margin-bottom: 0.2vw;
+}
+.formSection input {
+    display: block;
+    width: 100%;
+    height: 5.5vw;
+    margin-bottom: 0.6vw;
+    padding: 0.6vw;
+    font-family: "Arya";
+    font-size: 2.1vw;
+    color: #24476D;
+    background: linear-gradient(
+        to bottom,
+        #D8E1ED,
+        #FFFFFF 65%
+    );
+    border: 0.2vw solid #879BB8;
+    border-radius: 0.2vw;
+    box-shadow: 0 0.3vw 0.8vw #536B8C;
+    outline: none;
+}
+.formSection input::placeholder {
+    color: #91B2D0;
+    opacity: 1;
+}
+.formSection input:focus {
+    border-color: #3098F6;
+}
+.formButton {
+    display: block;
+    width: 34vw;
+    height: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vw;
+    border-radius: 0.5vw;
+    border-style: solid;
+    border-width: 0.25vw;
+    font-family: "Arya";
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.formButton:hover {
+    transform: scale(1.03);
+}
+.loginButton {
+    background: linear-gradient(
+        to bottom,
+        #168FE8,
+        #65C9F5
+    );
+    border-color: #1478DB;
+    box-shadow: 0 0.3vw 0.8vw #6686B1;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 1.5vw;
+    margin-bottom: 0.7vw;
+    text-align: center;
+}
+.divider h2 {
+    font-size: 2.5vw;
+    line-height: 1.2;
+    color: #24476D;
+    margin: 0;
+    white-space: nowrap;
+}
+.divider span {
+    flex: 1;
+    height: 0.2vw;
+    background-color: #24476D;
+}
+.signupButton {
+    background: linear-gradient(
+        to bottom,
+        #FFB36F,
+        #FFD09B
+    );
+    border-color: #F49A54;
+    box-shadow: 0 0.3vw 0.8vw #C99A79;
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+}

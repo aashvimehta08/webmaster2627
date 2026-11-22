@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+@import url("footer.css");
 body {
     background-image: url('webmasterhomebackground.png');
     background-attachment: scroll;
@@ -128,9 +129,17 @@ h1,h2,h3,p,button{
 
 /* Individual button backgrounds */
 #AIButton {
-    background-image: url('ribbonleft.jpg');
+    background: linear-gradient(
+        135deg,
+        #F1A3B8,
+        #EE769A
+    );
 }
 
 #copyrightButton {
-    background-image: url('ribbonmiddle.PNG');
+    background: linear-gradient(
+        135deg,
+        #F8D69F,
+        #F5BD6A
+    );
 }
