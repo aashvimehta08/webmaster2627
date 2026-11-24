@@ -215,3 +215,29 @@ body {
     margin-top: 1.5vw;
     margin-bottom: 2vw;
 }
+
+/* ---- Auth wiring additions (status messages + text links) ---- */
+.formMessage {
+    min-height: 2vw;
+    margin: 0.4vw 0 0;
+    font-size: 1.8vw;
+    color: #24476D;
+    text-align: center;
+}
+.formMessage.error   { color: #B3261E; }
+.formMessage.success { color: #1B7A3A; }
+.linkButton {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: "Arya";
+    font-size: 1.8vw;
+    color: #1478DB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.formButton:disabled {
+    opacity: 0.6;
+    cursor: wait;
+    transform: none;
+}

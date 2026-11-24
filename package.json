@@ -1,0 +1,18 @@
+{
+  "name": "braingainz-portal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "BRAINGAINZ.EDU AI Learning Portal — static site + Supabase backend",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && npx --yes serve@14.2.4 dist -l 3000",
+    "test:backend": "node --env-file=.env scripts/test-backend.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "2.79.0"
+  }
+}
