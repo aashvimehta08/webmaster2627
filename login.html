@@ -79,9 +79,10 @@
                 type="password"
                 id="signupPassword"
                 autocomplete="new-password"
-                placeholder="At least 8 characters, letters and numbers"
+                aria-describedby="passwordHint"
                 required
             >
+            <p id="passwordHint" class="formHint">At least 8 characters, with at least one letter and one number.</p>
             <label for="signupConfirmPassword">Confirm password:</label>
             <input
                 type="password"
